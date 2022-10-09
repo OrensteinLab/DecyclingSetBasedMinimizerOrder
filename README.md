@@ -1,1 +1,1 @@
-# ApproximatelyUniversalMinimizerOrder
+# DecyclingSetBasedMinimizerOrder
