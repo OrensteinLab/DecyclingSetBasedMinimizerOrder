@@ -2,6 +2,7 @@
 
 This repository contains code for the manuscript [Efficient minimizer orders for large values of *k* using minimum decycling sets](https://www.biorxiv.org/content/10.1101/2022.10.18.512682)
 
+#### Files
 c++ source code for Decycling-set-based minimizers is in `src`, provided as header files:
 
 `minimzers.h`: decycling set based minimizers (up to *k*=63)
@@ -10,6 +11,10 @@ c++ source code for Decycling-set-based minimizers is in `src`, provided as head
 
 `test_minimizers.cpp`: an example of how to use minimizers in your code. It can be used to compute the density for an input sequence or random sequence.
 
+#### Compilation 
+`g++ -Wall -O3 -o test_minimizer test_minimizers.cpp -std=c++2a -lgmp -lgmpxx` Note that `-lgmp -lgmpxx` are **only** necessary for big_minimizers
+
+#### Usage
 Command line options for test_minimizer:
 ```
 Usage: ./test_minimizer -k <k> -L <L> -r/--reps -l/--seqlen -m/--method -seq/--seqfile -o/--outfile [-set/--setfile]
@@ -26,5 +31,4 @@ Usage: ./test_minimizer -k <k> -L <L> -r/--reps -l/--seqlen -m/--method -seq/--s
 
 
 
-Compilation: 
-`g++ -Wall -O3 -o test_minimizer test_minimizers.cpp -std=c++2a -lgmp -lgmpxx` Note that `-lgmp -lgmpxx` are **only** necessary for big_minimizers
+
