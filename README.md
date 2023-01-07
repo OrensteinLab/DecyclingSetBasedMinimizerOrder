@@ -2,7 +2,7 @@
 
 This repository contains code for the manuscript [Efficient minimizer orders for large values of *k* using minimum decycling sets](https://www.biorxiv.org/content/10.1101/2022.10.18.512682)
 
-#### Files
+#### Code
 c++ source code for Decycling-set-based minimizers is in `src`, provided as header files:
 
 `minimzers.h`: decycling set based minimizers (up to *k*=63)
@@ -29,6 +29,9 @@ Usage: ./test_minimizer -k <k> -L <L> -r/--reps -l/--seqlen -m/--method -seq/--s
         setfile: The file with the set to use. Required when method is 'set', 'uhs', 'pasha', or 'docks'
 ```
 
+#### Other files
+`results` contains tables of raw results reported in the paper
 
+`scripts/all_plots.py` contains plotting code to generate the paper figures from the results tables
 
 
