@@ -34,4 +34,11 @@ Usage: ./test_minimizer -k <k> -L <L> -r/--reps -l/--seqlen -m/--method -seq/--s
 
 `scripts/all_plots.py` contains plotting code to generate the paper figures from the results tables
 
+#### Citation
+Efficient minimizer orders for large values of k using minimum decycling sets
+
+David Pellow, Lianrong Pu, Baris Ekim, Lior Kotlar, Bonnie Berger, Ron Shamir, Yaron Orenstein
+
+bioRxiv 2022.10.18.512682; doi: [https://doi.org/10.1101/2022.10.18.512682](https://doi.org/10.1101/2022.10.18.512682)
+
 
