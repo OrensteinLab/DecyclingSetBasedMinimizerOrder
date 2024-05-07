@@ -39,6 +39,6 @@ Efficient minimizer orders for large values of k using minimum decycling sets
 
 David Pellow, Lianrong Pu, Baris Ekim, Lior Kotlar, Bonnie Berger, Ron Shamir, Yaron Orenstein
 
-bioRxiv 2022.10.18.512682; doi: [https://doi.org/10.1101/2022.10.18.512682](https://doi.org/10.1101/2022.10.18.512682)
+Genome Research https://genome.cshlp.org/content/33/7/1154.short
 
 
